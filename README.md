@@ -19,3 +19,15 @@ subject=Wow!
 sender=Gollum <gollum@myserver.com>
 recipient=sauron@myserver.com
 ```
+
+Oppsett:
+```
+virtualenv ENV
+. ENV/bin/activate
+pip install requests easywebdav
+```
+
+Crontab for å kjøre hver halvtime fra 9 til 17 fra mandag til fredag:
+```
+*/30 9-17 * * 1-5 cd /path/to/vortex-mail-notifier && ./run.sh
+```
