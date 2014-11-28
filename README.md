@@ -18,6 +18,9 @@ body=New page just appeared at http://url.to/folder
 subject=Wow!
 sender=Gollum <gollum@myserver.com>
 recipient=sauron@myserver.com
+
+[rollbar]
+token=my-rollbar-token
 ```
 
 Oppsett:
